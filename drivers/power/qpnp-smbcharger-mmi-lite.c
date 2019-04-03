@@ -7645,7 +7645,7 @@ static ssize_t force_chg_iusb_show(struct device *dev,
 					struct device_attribute *attr,
 					char *buf)
 {
-	int state;
+	int state = 0;
 	int ret;
 	u8 value;
 
